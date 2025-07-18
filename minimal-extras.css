@@ -40,6 +40,19 @@ SOFTWARE.
 */
 
 /*----------------------------------*/
+/* HEADINGS                         */
+/*----------------------------------*/
+body.me-reverse-colorful-headings {
+  background-color: white;
+  --h1-color: var(--color-purple);
+  --h2-color: var(--color-blue);
+  --h3-color: var(--color-green);
+  --h4-color: var(--color-yellow);
+  --h5-color: var(--color-orange);
+  --h6-color: var(--color-red);
+}
+
+/*----------------------------------*/
 /* HORIZONTAL RULES                 */
 /*----------------------------------*/
 .me-hr-gradient-icon .cm-line hr,
@@ -105,6 +118,21 @@ settings:
     level: 2
     markdown: true
     collapsed: true
+######################################
+# HEADINGS
+######################################
+  -
+    id: me-headings
+    title: Headings
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: me-reverse-colorful-headings
+    title: Reverse Colorful Headings Direction
+    description: Colors headings in reverse rainbow direction (Purple H1 to Red H6). Individual heading colors can still be overridden in the base Minimal Style Settings.
+    type: class-toggle
+
 ######################################
 # HORIZONTAL RULES
 ######################################
